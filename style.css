@@ -1,0 +1,44 @@
+body{
+    background-color: lightslategrey;
+    text-align: center;
+}
+.box{
+    height: 120px;
+    width: 120px;
+    border: 6px solid black;
+    border-radius: 20%;  
+    line-height: 120px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.one{
+    background-color: #f99b45;
+}
+.two{
+    background-color: #d95980;
+}
+.three{
+    background-color: #63aac0;
+}
+.four{
+    background-color: #819ff9;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: lightgreen;
+}
+.red{
+    background-color: lightcoral;
+}
+main{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
